@@ -1,50 +1,90 @@
+/*Importing fonts from GOOGLE FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&family=Raleway&display=swap');
+
+/*This is where we preset variables so that we will reuse variables*/
+:root {
+    --primary-color: #3e0963;
+    --secondary-color: #c8a6e0;
+    --tittle: 'Oleo Script', cursive;
+    --paragraph: 'Raleway', sans-serif;
+}
+
 /*Body Class*/
 .container {
     display: flex;
     flex-direction: row;
 }
+
+/*<p> tag styling*/
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 .header-nav-bar {
     width: 80vw;
+    margin: 10px;
 }
 
 /*Header 1 Class*/
 .header-1 {
-    border: 1px solid green;
     width: 20vw;
     height: 25vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-top: 20px;
+}
+.coat-of-arms {
+    text-shadow: 20px 20px 20px #3e0963;
+
 }
 
 /*Header 2 Class*/
 .header-2 {
-    border: 1px solid green;
     height: 10vh;
+    margin: 10px;
+    text-align: center;
+    font-family: var(--tittle);
+    color: var(--primary-color);
+    font-size: 20px;
+}
+
+/*Styling For all <h1> tags*/
+h1 {
+    padding: 0;
+    margin: 0;
+    align-self: center;
+    font-size: 60px;
 }
 
 /*Navigation Bar 2 Class*/
 .navigation-bar-2 {
-    border: 1px solid green;
     height: 15vh;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
 }
 
 /*Navigation Bar 1 Class*/
 .navigation-bar-1 {
-    border: 2px solid green;
+    border: 1px solid green;
     width: 20vw;
+    margin: 10px;
 }
 
 /*Article 1 Class*/
 .article {
-    border: 2px solid green;
+    border: 1px solid green;
     width: 60vw;
+    margin: 10px;
+    padding: 30px;
 }
 
 /*Aside Class*/
 .aside {
-    border: 2px solid green;
+    border: 1px solid green;
     width: 20vw;
+    margin: 10px;
 }
 
 /*Container Bar Class*/
@@ -56,15 +96,38 @@
 
 /*Footer Class*/
 .footer {
-    border: 2px solid green;
+    border: 1px solid green;
     height: 12vh;
+    padding: 0;
+    margin: 0;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: var(--secondary-color);
+    font: var(--paragraph);
 }
 
 /*Navigation Tabs styling*/
 .nav-tabs {
     display: flex;
     flex-direction: row;
-    word-spacing: normal;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-tabs a {
+    text-decoration: none;
+    font-family: var(--paragraph);
+    font-size: 120%;
+    font-weight: bolder;
+    color: var(--primary-color);
+    text-shadow: 5px 5px 10px var(--secondary-color);
+}
+
+a:hover {
+    text-shadow: 5px 5px 35px var(--primary-color);
 }
 
 /*Navigation Items styling*/
