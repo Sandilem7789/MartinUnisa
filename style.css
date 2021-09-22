@@ -1,0 +1,75 @@
+/*Body Class*/
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.header-nav-bar {
+    width: 80vw;
+}
+
+/*Header 1 Class*/
+.header-1 {
+    border: 1px solid green;
+    width: 20vw;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*Header 2 Class*/
+.header-2 {
+    border: 1px solid green;
+    height: 10vh;
+}
+
+/*Navigation Bar 2 Class*/
+.navigation-bar-2 {
+    border: 1px solid green;
+    height: 15vh;
+}
+
+/*Navigation Bar 1 Class*/
+.navigation-bar-1 {
+    border: 2px solid green;
+    width: 20vw;
+}
+
+/*Article 1 Class*/
+.article {
+    border: 2px solid green;
+    width: 60vw;
+}
+
+/*Aside Class*/
+.aside {
+    border: 2px solid green;
+    width: 20vw;
+}
+
+/*Container Bar Class*/
+.container-bar-1 {
+    display: flex;
+    flex-direction: row;
+    height: 58vh;
+}
+
+/*Footer Class*/
+.footer {
+    border: 2px solid green;
+    height: 12vh;
+}
+
+/*Navigation Tabs styling*/
+.nav-tabs {
+    display: flex;
+    flex-direction: row;
+    word-spacing: normal;
+}
+
+/*Navigation Items styling*/
+.nav-items {
+    padding-left: 10px;
+    padding-right: 9vw;
+    color: white;
+}
